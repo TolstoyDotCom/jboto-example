@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 import com.tolstoy.jboto.api.IProduct;
 
-class Car implements IProduct {
+public class Car implements IProduct {
 	private String licensePlateNumber;
 	private final List<String> features, headlights;
 
@@ -28,30 +28,31 @@ class Car implements IProduct {
 		this.headlights = new ArrayList<String>();
 	}
 
-	void addFeature( String val ) {
+	public void addFeature( String val ) {
 		features.add( val );
 	}
 
-	List<String> getFeatures() {
+	public List<String> getFeatures() {
 		return features;
 	}
 
-	void addHeadlight( String val ) {
+	public void addHeadlight( String val ) {
 		headlights.add( val );
 	}
 
-	List<String> getHeadlights() {
+	public List<String> getHeadlights() {
 		return headlights;
 	}
 
-	String getLicensePlateNumber() {
+	public String getLicensePlateNumber() {
 		return licensePlateNumber;
 	}
 
-	void setLicensePlateNumber( String val ) {
+	public void setLicensePlateNumber( String val ) {
 		licensePlateNumber = val;
 	}
 
+	@Override
 	public String toString() {
 		return "car with license plate number " + getLicensePlateNumber() + " has these headlights: " + getHeadlights() + " and these features: " + getFeatures();
 	}

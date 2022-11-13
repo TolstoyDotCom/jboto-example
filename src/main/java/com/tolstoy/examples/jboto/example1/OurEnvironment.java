@@ -15,7 +15,7 @@ package com.tolstoy.examples.jboto.example1;
 
 import com.tolstoy.jboto.api.IEnvironment;
 
-class OurEnvironment implements IEnvironment {
+public class OurEnvironment implements IEnvironment {
 	int getIncrement() {
 		return 2;
 	}

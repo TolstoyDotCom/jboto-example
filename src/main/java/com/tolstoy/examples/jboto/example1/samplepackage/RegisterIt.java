@@ -11,13 +11,15 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.tolstoy.examples.jboto.example1;
+package com.tolstoy.examples.jboto.example1.samplepackage;
 
 import org.apache.commons.lang3.RandomStringUtils;
 
 import com.tolstoy.jboto.api.IProduct;
 import com.tolstoy.jboto.api.IEnvironment;
 import com.tolstoy.jboto.api.IBasicCommand;
+import com.tolstoy.examples.jboto.example1.Car;
+import com.tolstoy.examples.jboto.example1.OurEnvironment;
 
 public class RegisterIt implements IBasicCommand {
 	public RegisterIt() {

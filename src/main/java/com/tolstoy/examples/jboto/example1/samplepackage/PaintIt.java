@@ -11,13 +11,15 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.tolstoy.examples.jboto.example1;
+package com.tolstoy.examples.jboto.example1.samplepackage;
 
 import java.util.Random;
 
 import com.tolstoy.jboto.api.IProduct;
 import com.tolstoy.jboto.api.IEnvironment;
 import com.tolstoy.jboto.api.IBasicCommand;
+import com.tolstoy.examples.jboto.example1.Car;
+import com.tolstoy.examples.jboto.example1.OurEnvironment;
 
 public class PaintIt implements IBasicCommand {
 	private final Random rand;
