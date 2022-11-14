@@ -40,7 +40,7 @@
 		<dependency>
 			<groupId>com.github.TolstoyDotCom</groupId>
 			<artifactId>jboto</artifactId>
-			<version>0.0.4</version>
+			<version>0.0.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
