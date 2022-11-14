@@ -58,7 +58,7 @@ public final class Example1 {
 
 		logger.info( "PRODUCT BEFORE: " + product );
 
-		framework.run( product, env, null );
+		framework.run( product, env, null, 0 );
 
 		logger.info( "PRODUCT AFTER: " + product );
 	}

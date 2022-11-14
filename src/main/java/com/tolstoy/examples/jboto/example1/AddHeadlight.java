@@ -21,7 +21,7 @@ public class AddHeadlight implements IBasicCommand {
 	public AddHeadlight() {
 	}
 
-	public void run( IProduct product, IEnvironment env, Object extra ) throws Exception {
+	public void run( IProduct product, IEnvironment env, Object extra, int index ) throws Exception {
 		Car car = (Car) product;
 		OurEnvironment ourEnv = (OurEnvironment) env;
 		String headlightName = (String) extra;

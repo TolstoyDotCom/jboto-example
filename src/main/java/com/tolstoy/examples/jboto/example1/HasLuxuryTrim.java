@@ -26,7 +26,7 @@ public class HasLuxuryTrim implements IIfCommand {
 		this.rand = new Random();
 	}
 
-	public boolean test( IProduct product, IEnvironment env, Object extra ) throws Exception {
+	public boolean test( IProduct product, IEnvironment env, Object extra, int index ) throws Exception {
 		Car car = (Car) product;
 		OurEnvironment ourEnv = (OurEnvironment) env;
 

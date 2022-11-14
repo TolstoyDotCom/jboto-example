@@ -28,7 +28,7 @@ public class PaintIt implements IBasicCommand {
 		this.rand = new Random();
 	}
 
-	public void run( IProduct product, IEnvironment env, Object extra ) throws Exception {
+	public void run( IProduct product, IEnvironment env, Object extra, int index ) throws Exception {
 		Car car = (Car) product;
 		OurEnvironment ourEnv = (OurEnvironment) env;
 

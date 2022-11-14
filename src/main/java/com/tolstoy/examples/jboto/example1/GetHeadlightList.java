@@ -24,7 +24,7 @@ public class GetHeadlightList implements IForeachCommand {
 	public GetHeadlightList() {
 	}
 
-	public List<? extends Object> getList( IProduct product, IEnvironment env, Object extra ) throws Exception {
+	public List<? extends Object> getList( IProduct product, IEnvironment env, Object extra, int index ) throws Exception {
 		Car car = (Car) product;
 		OurEnvironment ourEnv = (OurEnvironment) env;
 

@@ -21,7 +21,7 @@ public class AddWoodPaneling implements IBasicCommand {
 	public AddWoodPaneling() {
 	}
 
-	public void run( IProduct product, IEnvironment env, Object extra ) throws Exception {
+	public void run( IProduct product, IEnvironment env, Object extra, int index ) throws Exception {
 		Car car = (Car) product;
 		OurEnvironment ourEnv = (OurEnvironment) env;
 
